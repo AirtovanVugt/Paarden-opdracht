@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.Hoveren:hover{
+    cursor: pointer;
+}
+
+
+
+header{
+    background-color: firebrick;
+    display: flex;
+    align-items: center;
+    height: 130px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+header > img{
+    width: 200px;
+    margin-left: 5vw;
+}
+
+header > p{
+    text-align: right;
+    width: 100%;
+}
+
+header > p > a{
+    border: solid gray 2px;
+    padding: 5px;
+    border-radius: 100%;
+    font-size: 20px;
+    color: gray;
+    background-color: lightgray;
+    margin-right: 50px;
+}
+
+header > p > a:hover{
+    cursor: pointer;
+}
+
+footer{
+    height: 30px;
+    background-color: firebrick;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > p{
+    color: white;
+}
+
+hr{
+    margin: 10px 0px;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+
+.HorsespaceTop{
+    margin-top: 20px;
+}
+
+.SectionForHorses{
+    border: solid black 2px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+}
+
+.HorsePicture{
+    width: 200px;
+    height: 250px;
+}
+
+.centeren{
+    text-align: center;
+}
+
+.Grid-Container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.LeftRight:nth-child(odd){
+    grid-column: 1 / 2;
+}
+
+.LeftRight:nth-child(even){
+    grid-column: 2 / 3;
+}
+
+.UpSpace{
+    margin-top: 5px;
+}
+
+
+
+.TussenButton{
+    margin: 0px 30px;
+}
+
+.TussenButton > button{
+    padding: 5px 5px;
+    text-align: center;
+}
+
+
+
+.discription{
+    align-items: left;
+    margin: 5px 150px;
+}
+
+
+
+.TheForm{
+    margin: 0px 150px;
+    padding: 50px 20px;
+    background-color: lightgray;
+}
+
+.TheForm > input{
+    width: 100%;
+}
+
+.Rood{
+    color: red;
+}
+
+
+
+.InlogZien{
+    margin-left: 0px 20px;
+    padding: 5px 0px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.ligtgrijs{
+    background-color: lightgray;
+}
+
+
+.GroteKnop{
+    padding: 5px;
+}
+
+.PersonSection{
+    border: solid black 2px;
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.PersonSection > p{
+    margin: 5px 0px;
+    margin-left: 20px;
+}
+
+#nextback{
+    border: solid black 2px;
+    background-color: white;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+#nextback:hover{
+    cursor: pointer;
+}
+
+.downspace{
+    margin-bottom: 10px;
+}
+
+.Grijs{
+    background-color: gray;
+}
